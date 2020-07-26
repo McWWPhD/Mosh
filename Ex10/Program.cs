@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Ex10
 {
@@ -14,9 +16,50 @@ namespace Ex10
     {
         static void Main(string[] args)
         {
+            var likes = new List<string>();
 
 
+            while (true)
+            {
+                Console.Write("Enter different name: ");
+                var input = Console.ReadLine();
 
+                if (string.IsNullOrEmpty(input))
+                {
+                    continue;
+                }
+                else if (input.ToLower() == "enter")
+                {
+                    break;
+
+                }
+                else
+                {
+                    likes.Add(input);
+                    continue;
+                }
+
+            }
+
+            switch (likes.Count)
+            {
+                case 0:
+                    Console.WriteLine("Booooo");
+                    break;
+
+                case 1:
+                    Console.WriteLine("{0} likes your post", likes[0]);
+                    break;
+
+                case 2:
+                    Console.WriteLine("{0} and {1} like your post", likes[0], likes[1]);
+                    break;
+                    
+
+                default:
+                    Console.WriteLine("{0}, {1} and {2} others like your post!", likes[0], likes[1], likes.Count - 2);
+                    break;
+            }
 
         }
     }
