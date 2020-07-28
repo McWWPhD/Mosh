@@ -49,7 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InEx1", "InEx1\InEx1.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InEx2", "InEx2\InEx2.csproj", "{1D72E839-8508-4A83-B4B5-4E11590A69A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InEx3", "InEx3\InEx3.csproj", "{8C774F58-DB79-4493-BF65-942FC6EC13EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InEx3", "InEx3\InEx3.csproj", "{8C774F58-DB79-4493-BF65-942FC6EC13EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InEx4", "InEx4\InEx4.csproj", "{73F06D96-8ADA-4594-9AED-61B1FEC51E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InEx5", "InEx5\InEx5.csproj", "{CBB69C99-7739-4818-9852-49F5F9EDC5A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{8C774F58-DB79-4493-BF65-942FC6EC13EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C774F58-DB79-4493-BF65-942FC6EC13EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C774F58-DB79-4493-BF65-942FC6EC13EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F06D96-8ADA-4594-9AED-61B1FEC51E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F06D96-8ADA-4594-9AED-61B1FEC51E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F06D96-8ADA-4594-9AED-61B1FEC51E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F06D96-8ADA-4594-9AED-61B1FEC51E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB69C99-7739-4818-9852-49F5F9EDC5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB69C99-7739-4818-9852-49F5F9EDC5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB69C99-7739-4818-9852-49F5F9EDC5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB69C99-7739-4818-9852-49F5F9EDC5A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
